@@ -1,0 +1,6 @@
+-   id: check-print
+    name: Check print statements
+    description: This hook checks for added print statements.
+    entry: check-print.sh
+    language: script
+    types: [python]
