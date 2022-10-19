@@ -1,6 +1,6 @@
 #!/bin/bash
 
-print_regex='[[:space:]]*print[[:space:](]*'
+print_regex='[[:space:]]+print\('
 did_find=0
 for fname in "$@"
 do
